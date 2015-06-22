@@ -4,4 +4,4 @@ The newsletter is mostly published Friday afternoons, so having a cronjob set to
 Friday afternoon (CET) would be a good idea.
 
 Sample cronjob config:
-0 14 * * 5 sh /home/<user>/<workspace>/sendEmail.sh
+0 14 * * 5 sh /home/$user/$workspace/sendEmail.sh
